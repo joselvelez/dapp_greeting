@@ -41,7 +41,10 @@ module.exports = {
       url: endpoint,
       accounts: [`0x${private_key}`]
     },
-    
+    rinkeby: {
+      url: endpoint,
+      accounts: [`0x${private_key}`]
+    }
   }
 };
 

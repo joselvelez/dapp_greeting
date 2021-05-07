@@ -2,7 +2,7 @@ require("@nomiclabs/hardhat-waffle");
 
 /*
 To keep some config info private:
-create a file called 'dappconfig.js' in your project root.
+create a file called 'dappconfig.js' and save it to the './src' dir.
 add it to your .gitignore so it remains only on your local dev env.
 add the below to 'dappconfig.js':
 const endpoint = "your endpoint address";
